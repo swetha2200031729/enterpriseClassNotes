@@ -1,0 +1,6 @@
+
+<html>
+<body>
+<%@ include file="xyz.jsp" %>
+</body>
+</html>

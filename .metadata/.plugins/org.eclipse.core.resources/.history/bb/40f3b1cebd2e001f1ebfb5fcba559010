@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>form</title>
+</head>
+<body>
+ <form action="sample" method="post">
+ 	Username: <input type="text" name="un"><br>
+ 	<input type="submit" value="click here">
+ </form>
+</body>
+</html>

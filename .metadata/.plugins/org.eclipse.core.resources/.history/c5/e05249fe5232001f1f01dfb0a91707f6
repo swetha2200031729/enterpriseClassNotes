@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>Insert title here</title>
+</head>
+<body>
+<h1> abc.jsp page</h1>
+<jsp:include page="xyz.jsp" >
+	<jsp:param value="alice" name="uname"/>
+</jsp:include>
+</body>
+</html>

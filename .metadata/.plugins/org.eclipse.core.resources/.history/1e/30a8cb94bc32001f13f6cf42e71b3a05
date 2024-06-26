@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+    <title>JSF Example</title>
+</h:head>
+<h:body>
+
+    <h:outputText id="text" value="Hello world" />
+    <h:inputTextarea id="sadd" value="#{bcob.s.address}" />
+    <h:inputSecret id="password" value="#{bcob.password}" />
+    <h:inputFile id="file" value="#{s.sfile}" />
+    <h:graphicImage id="image" value="/resources/images/My_id_photo.jpeg" />
+    <br />
+    <h:form>
+        <h:outputLabel value="Name: " for="name" />
+        <h:inputText id="name" value="#{userBean.name}" />
+        <h:inputHidden id="userId" value="#{userBean.userId}" />
+        <h:commandButton value="Submit" action="#{userBean.submit}" />
+        <h:commandLink id="signup" value="signup" action="signup.html" />
+        <h:commandButton id="login" value="login" action="home.html" />
+    </h:form>
+    <h:selectOneMenu id="" value="#{bcob.slectedoptions}">
+                        <f:selectItem itemValue="value" />
+                        <f:selectItem itemValue="value1" />
+                        <f:selectItem itemValue="value2" />
+                    </h:selectOneMenu>
+
+</h:body>
+</html>

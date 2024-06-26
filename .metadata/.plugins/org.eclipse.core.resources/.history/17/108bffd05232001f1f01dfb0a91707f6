@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+ <form action="sample.jsp" method="post" >
+ 	Username: <input type="text" name="un"><br>
+ 	<input type="submit" value="click here">
+ </form>
+</body>
+</html>

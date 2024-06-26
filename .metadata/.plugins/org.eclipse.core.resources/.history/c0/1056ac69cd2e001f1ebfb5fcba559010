@@ -1,0 +1,10 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<% out.print("jsp action tag - forward"); %>
+<jsp:forward page="xyz.jsp" />
+</body>
+</html>

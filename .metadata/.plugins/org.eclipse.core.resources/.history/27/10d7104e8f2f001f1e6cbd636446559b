@@ -1,0 +1,9 @@
+
+<html>
+<body>
+<%@ page import="java.util.*" %>
+<%=
+	new Date()
+%>
+</body>
+</html>

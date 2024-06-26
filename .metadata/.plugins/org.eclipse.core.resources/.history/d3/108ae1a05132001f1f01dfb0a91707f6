@@ -1,0 +1,12 @@
+<html>
+<body>
+<h2>Hello World!</h2>
+<%! 
+int cube(int n){
+	return n*n*n;
+}
+%>
+<% out.print(cube(3)); %>
+<%= "cubeof a given number:"+ cube(5) %>
+</body>
+</html>

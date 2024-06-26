@@ -1,0 +1,9 @@
+<html>
+<head>
+<title>xyz jsp file</title>
+</head>
+<body>
+ <h1>xyz jsp file</h1>
+ <% out.print("this is include directive"); %>
+</body>
+</html>

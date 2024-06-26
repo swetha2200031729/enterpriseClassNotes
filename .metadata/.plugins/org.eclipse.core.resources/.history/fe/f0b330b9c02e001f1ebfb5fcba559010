@@ -1,0 +1,9 @@
+
+<html>
+<body>
+<% 
+	String username=request.getParameter("un");
+	out.print("hello :"+username);
+%>
+</body>
+</html>
